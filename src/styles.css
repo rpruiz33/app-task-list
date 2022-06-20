@@ -1,0 +1,113 @@
+/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Poppins';
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;    
+    background-color: black;
+}
+
+.container{
+    max-width: 50%;
+    margin: 30px auto;
+    overflow: auto;
+    min-height: 300px;
+    border: 1px solid steelblue;
+    padding: 30px;
+    border-radius: 5px;
+    background-image: url('https://concepto.de/wp-content/uploads/2014/08/programacion-2-e1551291144973.jpg');
+}
+
+.btn {
+    display: inline-block;
+    background: rgb(245, 16, 16);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 2   px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+}
+.btn:focus {
+    outline: none;
+}
+.btn:active {
+    transform: scale(0.98);
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
+
+.form-control {
+    width: 60%;
+    margin: 30px ;
+    background-color: rgb(77, 118, 155);
+    border-radius:5px ;
+    padding: 3px 7px;       
+}
+
+.form-control label {
+    display: block;
+    
+    border-radius:5px ;
+    
+}
+
+.form-control input {
+    width: 90%;
+    height: 40px;
+    margin: 2px;
+
+    font-size: 17px;
+    border-radius:10px ;
+}
+
+.form-control-check {
+    display: flex;
+    align-items:left;
+    justify-content: center;
+    border-radius:10px ;
+
+}
+
+.form-control-check label {
+    flex: 1;
+}
+
+.form-control-check input {
+    flex: 2;
+    height: 20px;
+}
+
+.vista{
+background-color: black;
+margin-top: 0px;
+
+}
+
+.btn222 {
+   
+    background: rgb(245, 16, 16);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 2   px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    font-family: inherit;
+    align-items:flex-end;
+    justify-content:end;
+}
